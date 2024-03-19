@@ -1,0 +1,65 @@
+.swiper-wrapper{
+    position: relative;
+    @media (max-width:1439px) {
+        
+       gap: 20px; 
+    }
+    
+}
+
+.card {
+    max-width: 304px;
+    @media (max-width:426px) {
+        
+        max-width: 100%;
+    }
+}
+.card__img {
+    overflow: hidden;
+    border-radius: 12px;
+    margin-bottom: 16px;
+    img{
+        width: 100%;
+        
+    }
+}
+.card__title-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 4px;
+
+    
+    
+}
+.card__title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 150%;
+}
+.card__rating {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    gap: 4px;    
+    &::before{
+        content: '';
+        display: block;
+        width: 16px;
+        height: 16px;
+
+        
+        background-image: url(./../../img/icons/star-small.svg);
+        background-repeat: no-repeat;
+    }
+}
+.card__price {
+    font-weight: 500;
+    line-height: 150%;
+    .price{
+        color: var(--accent);
+    }
+}

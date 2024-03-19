@@ -1,0 +1,40 @@
+.card-review {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 32px;
+
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px 0 rgba(23, 28, 31, 0.23);
+
+
+    &:hover{
+        scale: 1.4px    ;
+    }
+}
+.card-review__rating {
+    display: flex;
+    gap: 4px    ;
+}
+.card-review__text {
+}
+.text {
+}
+.card-review__author {
+    gap: 16px;
+    display: flex;
+    align-items: center;
+}
+.card-review__img {
+    border-radius: 50%;
+}
+.card-review__author-title {
+}
+.card-review__author-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+}
+.card-review__author-role {
+}

@@ -1,0 +1,40 @@
+
+.Login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    height: 40px;
+    padding: 8px 20px;
+    border: 1px solid #B7B7B7;
+    border-radius: 8px;
+    color: #454545;
+
+
+    line-height: 150%;
+    font-size: 16px;
+    transition: all 0.2s ease-in-out;
+
+
+    &:hover{
+        background: #B7B7B7;
+        opacity: 0.7;
+    }
+}
+.SingUp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    
+    padding: 8px 20px;
+    height: 40px;
+
+    border-radius: 8px;
+    background: #181818;
+
+    font-size: 16px;
+    color: #fff;
+    line-height: 150%;
+
+}
